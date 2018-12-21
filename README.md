@@ -3,8 +3,9 @@
 <br/>
 <br/>
 ### 1. 分詞與清理資料
-先將資料放```data/text/```(內含url title content)轉成csv<br/>
-```python textcls/preprocess/preprocess_clean_seg.py```
+先將資料放```data/```(內含title content category_int)轉成csv<br/>
+category_int是文章類別<br/>
+```python preprocess.py -f filename```
 <br/>
 <br/>
 ### 2. 訓練CNN模型<br/>

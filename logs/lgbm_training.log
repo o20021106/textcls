@@ -58,3 +58,7 @@
 2018-12-21 15:36:16,245 - simpleExample - DEBUG - /root/projects/textClassification/data/punc/segmented_travel_bigfang.csv
 2018-12-21 15:36:16,912 - simpleExample - INFO - start vectorizing
 2018-12-21 15:40:55,313 - simpleExample - INFO - finished vectorizing
+2018-12-21 17:52:25,297 - simpleExample - INFO - preprocessing data
+2018-12-21 17:52:25,298 - simpleExample - DEBUG - data/preprocessed/test_preprocessed.csv
+2018-12-21 17:52:25,322 - simpleExample - INFO - start vectorizing
+2018-12-21 17:52:25,328 - simpleExample - INFO - finished vectorizing

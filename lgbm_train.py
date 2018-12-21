@@ -4,13 +4,14 @@ from sklearn.model_selection import train_test_split
 import lightgbm as lgb
 import logging.config
 from textcls.preprocess.preprocess_tfidf import preprocess_tfidf
-from textcls.config import data_paths
+import os
 
 logging.config.fileConfig(fname='textcls/base_logger.conf', disable_existing_loggers=False,
                           defaults={'logfilename': 'logs/lgbm_training.log'})
 logger = logging.getLogger('simpleExample')
 
-data_paths = ['/root/projects/textClassification/'+path for path in data_paths]
+data_paths = os.listdir('data/preprocessed')
+data_paths = [os.path.join('data/preprocessed', path) for path in data_paths]
 
 logger.info('preprocessing data')
 X, y = preprocess_tfidf(data_paths)

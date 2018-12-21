@@ -22,11 +22,11 @@ def preprocess_tfidf(data_paths):
     for path in data_paths:
         logger.debug(path)
         temp =  pd.read_csv(path, lineterminator = '\n')
-        data.append(temp[['category_int','url','words']])
+        data.append(temp[['category_int','words']])
     data = pd.concat(data)
     data_without_health_sports = data[data['category_int']!=3]
     data_health_sports = data[data['category_int']==3]
-    data_health_sports = data_health_sports.sample(70000)
+    #data_health_sports = data_health_sports.sample(70000)
     data = pd.concat([data_without_health_sports, data_health_sports])
     data.dropna(inplace=True)
     logger.info('start vectorizing')
