@@ -18,3 +18,7 @@ category_int是文章類別<br/>
 <br/>
 ### 4. 訓練Logistic模型<br/>
 ```python logistic_train.py```
+<br/>
+<br/>
+### 5. 使用模型預測
+```python inference.py -f test --cnn cnn.h5 --lgbm lgbm.pickle --logistic logistic.pickle```
