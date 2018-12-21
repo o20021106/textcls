@@ -1,0 +1,60 @@
+2018-12-21 15:24:47,748 - simpleExample - INFO - preprocessing data
+2018-12-21 15:24:47,758 - simpleExample - INFO - path
+2018-12-21 15:25:12,582 - simpleExample - INFO - preprocessing data
+2018-12-21 15:25:12,582 - simpleExample - INFO - /root/projects/textClassification/data/punc/segmented_news.csv
+2018-12-21 15:25:52,307 - simpleExample - INFO - /root/projects/textClassification/data/punc/segmented_yidian.csv
+2018-12-21 15:26:00,408 - simpleExample - INFO - /root/projects/textClassification/data/punc/segmented_food_travel.csv
+2018-12-21 15:26:02,903 - simpleExample - INFO - /root/projects/textClassification/data/punc/segmented_parent.csv
+2018-12-21 15:26:03,930 - simpleExample - INFO - /root/projects/textClassification/data/punc/segmented_health.csv
+2018-12-21 15:26:05,214 - simpleExample - INFO - /root/projects/textClassification/data/punc/segmented_fashion_beauty.csv
+2018-12-21 15:26:06,653 - simpleExample - INFO - /root/projects/textClassification/data/punc/segmented_sports.csv
+2018-12-21 15:26:07,513 - simpleExample - INFO - /root/projects/textClassification/data/punc/segmented_entertainment_gaming.csv
+2018-12-21 15:26:10,816 - simpleExample - INFO - /root/projects/textClassification/data/punc/segmented_finance.csv
+2018-12-21 15:26:11,009 - simpleExample - INFO - /root/projects/textClassification/data/punc/segmented_lifestyle_leisure.csv
+2018-12-21 15:26:15,523 - simpleExample - INFO - /root/projects/textClassification/data/punc/segmented_lifestyle_leisure_law.csv
+2018-12-21 15:26:15,701 - simpleExample - INFO - /root/projects/textClassification/data/punc/segmented_tech.csv
+2018-12-21 15:26:17,391 - simpleExample - INFO - /root/projects/textClassification/data/punc/segmented_food_travel_flyblog.csv
+2018-12-21 15:26:20,316 - simpleExample - INFO - /root/projects/textClassification/data/punc/segmented_food_travel_safood.csv
+2018-12-21 15:26:20,612 - simpleExample - INFO - /root/projects/textClassification/data/punc/segmented_tech_kocpc.csv
+2018-12-21 15:26:21,744 - simpleExample - INFO - /root/projects/textClassification/data/punc/segmented_tech_cool3c.csv
+2018-12-21 15:26:22,844 - simpleExample - INFO - /root/projects/textClassification/data/punc/segmented_travel_bigfang.csv
+2018-12-21 15:32:56,517 - simpleExample - INFO - preprocessing data
+2018-12-21 15:32:56,517 - simpleExample - DEBUG - /root/projects/textClassification/data/punc/segmented_news.csv
+2018-12-21 15:33:25,950 - simpleExample - DEBUG - /root/projects/textClassification/data/punc/segmented_yidian.csv
+2018-12-21 15:33:31,051 - simpleExample - DEBUG - /root/projects/textClassification/data/punc/segmented_food_travel.csv
+2018-12-21 15:33:33,425 - simpleExample - DEBUG - /root/projects/textClassification/data/punc/segmented_parent.csv
+2018-12-21 15:33:34,438 - simpleExample - DEBUG - /root/projects/textClassification/data/punc/segmented_health.csv
+2018-12-21 15:33:35,722 - simpleExample - DEBUG - /root/projects/textClassification/data/punc/segmented_fashion_beauty.csv
+2018-12-21 15:33:37,153 - simpleExample - DEBUG - /root/projects/textClassification/data/punc/segmented_sports.csv
+2018-12-21 15:33:38,005 - simpleExample - DEBUG - /root/projects/textClassification/data/punc/segmented_entertainment_gaming.csv
+2018-12-21 15:33:41,288 - simpleExample - DEBUG - /root/projects/textClassification/data/punc/segmented_finance.csv
+2018-12-21 15:33:41,476 - simpleExample - DEBUG - /root/projects/textClassification/data/punc/segmented_lifestyle_leisure.csv
+2018-12-21 15:33:45,973 - simpleExample - DEBUG - /root/projects/textClassification/data/punc/segmented_lifestyle_leisure_law.csv
+2018-12-21 15:33:46,150 - simpleExample - DEBUG - /root/projects/textClassification/data/punc/segmented_tech.csv
+2018-12-21 15:33:47,842 - simpleExample - DEBUG - /root/projects/textClassification/data/punc/segmented_food_travel_flyblog.csv
+2018-12-21 15:33:50,778 - simpleExample - DEBUG - /root/projects/textClassification/data/punc/segmented_food_travel_safood.csv
+2018-12-21 15:33:51,074 - simpleExample - DEBUG - /root/projects/textClassification/data/punc/segmented_tech_kocpc.csv
+2018-12-21 15:33:52,208 - simpleExample - DEBUG - /root/projects/textClassification/data/punc/segmented_tech_cool3c.csv
+2018-12-21 15:33:53,309 - simpleExample - DEBUG - /root/projects/textClassification/data/punc/segmented_travel_bigfang.csv
+2018-12-21 15:33:53,965 - simpleExample - INFO - start vectorizing
+2018-12-21 15:33:53,965 - simpleExample - INFO - finished vectorizing
+2018-12-21 15:35:19,502 - simpleExample - INFO - preprocessing data
+2018-12-21 15:35:19,502 - simpleExample - DEBUG - /root/projects/textClassification/data/punc/segmented_news.csv
+2018-12-21 15:35:48,776 - simpleExample - DEBUG - /root/projects/textClassification/data/punc/segmented_yidian.csv
+2018-12-21 15:35:53,895 - simpleExample - DEBUG - /root/projects/textClassification/data/punc/segmented_food_travel.csv
+2018-12-21 15:35:56,279 - simpleExample - DEBUG - /root/projects/textClassification/data/punc/segmented_parent.csv
+2018-12-21 15:35:57,304 - simpleExample - DEBUG - /root/projects/textClassification/data/punc/segmented_health.csv
+2018-12-21 15:35:58,568 - simpleExample - DEBUG - /root/projects/textClassification/data/punc/segmented_fashion_beauty.csv
+2018-12-21 15:36:00,025 - simpleExample - DEBUG - /root/projects/textClassification/data/punc/segmented_sports.csv
+2018-12-21 15:36:00,865 - simpleExample - DEBUG - /root/projects/textClassification/data/punc/segmented_entertainment_gaming.csv
+2018-12-21 15:36:04,202 - simpleExample - DEBUG - /root/projects/textClassification/data/punc/segmented_finance.csv
+2018-12-21 15:36:04,388 - simpleExample - DEBUG - /root/projects/textClassification/data/punc/segmented_lifestyle_leisure.csv
+2018-12-21 15:36:08,910 - simpleExample - DEBUG - /root/projects/textClassification/data/punc/segmented_lifestyle_leisure_law.csv
+2018-12-21 15:36:09,085 - simpleExample - DEBUG - /root/projects/textClassification/data/punc/segmented_tech.csv
+2018-12-21 15:36:10,777 - simpleExample - DEBUG - /root/projects/textClassification/data/punc/segmented_food_travel_flyblog.csv
+2018-12-21 15:36:13,709 - simpleExample - DEBUG - /root/projects/textClassification/data/punc/segmented_food_travel_safood.csv
+2018-12-21 15:36:14,007 - simpleExample - DEBUG - /root/projects/textClassification/data/punc/segmented_tech_kocpc.csv
+2018-12-21 15:36:15,143 - simpleExample - DEBUG - /root/projects/textClassification/data/punc/segmented_tech_cool3c.csv
+2018-12-21 15:36:16,245 - simpleExample - DEBUG - /root/projects/textClassification/data/punc/segmented_travel_bigfang.csv
+2018-12-21 15:36:16,912 - simpleExample - INFO - start vectorizing
+2018-12-21 15:40:55,313 - simpleExample - INFO - finished vectorizing

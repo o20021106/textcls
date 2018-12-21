@@ -90,3 +90,44 @@
 2018-12-21 13:59:16,486 - simpleExample - INFO - /root/projects/textClassification/data/punc/segmented_tech_cool3c.csv
 2018-12-21 13:59:17,718 - simpleExample - INFO - /root/projects/textClassification/data/punc/segmented_travel_bigfang.csv
 2018-12-21 14:02:42,693 - simpleExample - INFO - Finished processing CNN input data
+2018-12-21 14:50:48,518 - simpleExample - INFO - /root/projects/textClassification/data/punc/segmented_news.csv
+2018-12-21 14:51:17,879 - simpleExample - INFO - /root/projects/textClassification/data/punc/segmented_yidian.csv
+2018-12-21 14:51:22,828 - simpleExample - INFO - /root/projects/textClassification/data/punc/segmented_food_travel.csv
+2018-12-21 14:51:25,139 - simpleExample - INFO - /root/projects/textClassification/data/punc/segmented_parent.csv
+2018-12-21 14:51:26,177 - simpleExample - INFO - /root/projects/textClassification/data/punc/segmented_health.csv
+2018-12-21 14:51:27,464 - simpleExample - INFO - /root/projects/textClassification/data/punc/segmented_fashion_beauty.csv
+2018-12-21 14:51:28,909 - simpleExample - INFO - /root/projects/textClassification/data/punc/segmented_sports.csv
+2018-12-21 14:51:29,768 - simpleExample - INFO - /root/projects/textClassification/data/punc/segmented_entertainment_gaming.csv
+2018-12-21 14:51:33,011 - simpleExample - INFO - /root/projects/textClassification/data/punc/segmented_finance.csv
+2018-12-21 14:51:33,225 - simpleExample - INFO - /root/projects/textClassification/data/punc/segmented_lifestyle_leisure.csv
+2018-12-21 14:51:37,783 - simpleExample - INFO - /root/projects/textClassification/data/punc/segmented_lifestyle_leisure_law.csv
+2018-12-21 14:51:37,979 - simpleExample - INFO - /root/projects/textClassification/data/punc/segmented_tech.csv
+2018-12-21 14:51:39,673 - simpleExample - INFO - /root/projects/textClassification/data/punc/segmented_food_travel_flyblog.csv
+2018-12-21 14:51:42,693 - simpleExample - INFO - /root/projects/textClassification/data/punc/segmented_food_travel_safood.csv
+2018-12-21 14:51:43,029 - simpleExample - INFO - /root/projects/textClassification/data/punc/segmented_tech_kocpc.csv
+2018-12-21 14:51:44,221 - simpleExample - INFO - /root/projects/textClassification/data/punc/segmented_tech_cool3c.csv
+2018-12-21 14:51:45,381 - simpleExample - INFO - /root/projects/textClassification/data/punc/segmented_travel_bigfang.csv
+2018-12-21 14:55:09,565 - simpleExample - INFO - finished tokenizing data
+2018-12-21 14:55:10,241 - simpleExample - INFO - Finished processing CNN input data
+2018-12-21 15:01:27,772 - simpleExample - INFO - /root/projects/textClassification/data/punc/segmented_news.csv
+2018-12-21 15:01:57,040 - simpleExample - INFO - /root/projects/textClassification/data/punc/segmented_yidian.csv
+2018-12-21 15:02:02,056 - simpleExample - INFO - /root/projects/textClassification/data/punc/segmented_food_travel.csv
+2018-12-21 15:02:04,459 - simpleExample - INFO - /root/projects/textClassification/data/punc/segmented_parent.csv
+2018-12-21 15:02:05,509 - simpleExample - INFO - /root/projects/textClassification/data/punc/segmented_health.csv
+2018-12-21 15:02:06,798 - simpleExample - INFO - /root/projects/textClassification/data/punc/segmented_fashion_beauty.csv
+2018-12-21 15:02:08,259 - simpleExample - INFO - /root/projects/textClassification/data/punc/segmented_sports.csv
+2018-12-21 15:02:09,145 - simpleExample - INFO - /root/projects/textClassification/data/punc/segmented_entertainment_gaming.csv
+2018-12-21 15:02:12,412 - simpleExample - INFO - /root/projects/textClassification/data/punc/segmented_finance.csv
+2018-12-21 15:02:12,628 - simpleExample - INFO - /root/projects/textClassification/data/punc/segmented_lifestyle_leisure.csv
+2018-12-21 15:02:17,212 - simpleExample - INFO - /root/projects/textClassification/data/punc/segmented_lifestyle_leisure_law.csv
+2018-12-21 15:02:17,411 - simpleExample - INFO - /root/projects/textClassification/data/punc/segmented_tech.csv
+2018-12-21 15:02:19,103 - simpleExample - INFO - /root/projects/textClassification/data/punc/segmented_food_travel_flyblog.csv
+2018-12-21 15:02:22,152 - simpleExample - INFO - /root/projects/textClassification/data/punc/segmented_food_travel_safood.csv
+2018-12-21 15:02:22,492 - simpleExample - INFO - /root/projects/textClassification/data/punc/segmented_tech_kocpc.csv
+2018-12-21 15:02:23,693 - simpleExample - INFO - /root/projects/textClassification/data/punc/segmented_tech_cool3c.csv
+2018-12-21 15:02:24,843 - simpleExample - INFO - /root/projects/textClassification/data/punc/segmented_travel_bigfang.csv
+2018-12-21 15:14:32,038 - simpleExample - INFO - finished tokenizing data
+2018-12-21 15:14:34,631 - simpleExample - INFO - Finished processing CNN input data
+2018-12-21 15:19:35,233 - simpleExample - INFO - preprocess ata
+2018-12-21 15:19:59,895 - simpleExample - INFO - preprocess ata
+2018-12-21 15:20:56,123 - simpleExample - INFO - preprocessing data

@@ -1,0 +1,22 @@
+2018-12-21 16:00:41,032 - simpleExample - INFO - preprocessing data
+2018-12-21 16:00:41,033 - simpleExample - DEBUG - data/punc/segmented_news.csv
+2018-12-21 16:01:07,114 - simpleExample - INFO - preprocessing data
+2018-12-21 16:01:07,114 - simpleExample - DEBUG - /root/projects/textClassification/data/punc/segmented_news.csv
+2018-12-21 16:01:37,217 - simpleExample - DEBUG - /root/projects/textClassification/data/punc/segmented_yidian.csv
+2018-12-21 16:01:42,729 - simpleExample - DEBUG - /root/projects/textClassification/data/punc/segmented_food_travel.csv
+2018-12-21 16:01:45,078 - simpleExample - DEBUG - /root/projects/textClassification/data/punc/segmented_parent.csv
+2018-12-21 16:01:46,097 - simpleExample - DEBUG - /root/projects/textClassification/data/punc/segmented_health.csv
+2018-12-21 16:01:47,393 - simpleExample - DEBUG - /root/projects/textClassification/data/punc/segmented_fashion_beauty.csv
+2018-12-21 16:01:48,834 - simpleExample - DEBUG - /root/projects/textClassification/data/punc/segmented_sports.csv
+2018-12-21 16:01:49,703 - simpleExample - DEBUG - /root/projects/textClassification/data/punc/segmented_entertainment_gaming.csv
+2018-12-21 16:01:53,116 - simpleExample - DEBUG - /root/projects/textClassification/data/punc/segmented_finance.csv
+2018-12-21 16:01:53,304 - simpleExample - DEBUG - /root/projects/textClassification/data/punc/segmented_lifestyle_leisure.csv
+2018-12-21 16:01:58,035 - simpleExample - DEBUG - /root/projects/textClassification/data/punc/segmented_lifestyle_leisure_law.csv
+2018-12-21 16:01:58,210 - simpleExample - DEBUG - /root/projects/textClassification/data/punc/segmented_tech.csv
+2018-12-21 16:01:59,921 - simpleExample - DEBUG - /root/projects/textClassification/data/punc/segmented_food_travel_flyblog.csv
+2018-12-21 16:02:02,938 - simpleExample - DEBUG - /root/projects/textClassification/data/punc/segmented_food_travel_safood.csv
+2018-12-21 16:02:03,269 - simpleExample - DEBUG - /root/projects/textClassification/data/punc/segmented_tech_kocpc.csv
+2018-12-21 16:02:04,540 - simpleExample - DEBUG - /root/projects/textClassification/data/punc/segmented_tech_cool3c.csv
+2018-12-21 16:02:05,717 - simpleExample - DEBUG - /root/projects/textClassification/data/punc/segmented_travel_bigfang.csv
+2018-12-21 16:02:06,397 - simpleExample - INFO - start vectorizing
+2018-12-21 16:07:38,644 - simpleExample - INFO - finished vectorizing
