@@ -14,9 +14,6 @@ data_paths = ['/root/projects/textClassification/'+path for path in data_paths]
 
 logger.info('preprocessing data')
 X, y = preprocess_tfidf(data_paths)
-#X = scipy.sparse.load_npz('data/tfidf/'+sys.argv[1]+'.npz')
-#data = pd.read_csv('data/tfidf/'+sys.argv[2]+'.csv')
-#data['category_int'] = data['category_int']-1
 X_train, X_test, y_train, y_test = train_test_split(X, y, 
                                                     test_size=0.1, random_state=42)
 train_data = lgb.Dataset(X_train, label=y_train)

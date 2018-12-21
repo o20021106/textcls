@@ -12,6 +12,7 @@ logging.config.fileConfig(fname='textcls/base_logger.conf', disable_existing_log
                           defaults={'logfilename': 'logs/lgbm_training.log'})
 logger = logging.getLogger('simpleExample')
 
+
 def preprocess_tfidf(data_paths):
     stopwords  = []
     with open('utils/stopwords.txt', 'r') as f:

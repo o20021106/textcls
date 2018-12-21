@@ -1,14 +1,9 @@
 # -*- coding: utf-8 -*-
-import pandas as pd
 import numpy as np
-import gc 
-import os
-import re
 import jieba
-import time
 from bs4 import BeautifulSoup
-import sys
 from textcls.utils.parallel import parallelize
+
 
 def cleanMe(html):
     soup = BeautifulSoup(html) 
@@ -20,10 +15,12 @@ def cleanMe(html):
     text = '\n'.join(chunk for chunk in chunks if chunk)
     return text
 
+
 def segmentation(data):
     data = data.apply(lambda x: cleanMe(x))
     data = data.apply(lambda x: ' '.join(jieba.cut(x, HMM = True)))
     return data
+
 
 def segmentation_chunk(data):
     data.columns = map(str.lower, data.columns)

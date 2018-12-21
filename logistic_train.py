@@ -19,10 +19,10 @@ X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.1, random_
 
 #create and train model
 logisticRegr = LogisticRegression()
-logisticRegr.fit(X_train,y_train )
+logisticRegr.fit(X_train, y_train)
 
 logger.info('finished_training')
 
 with open('model_files/models/model/model/logistic_model.pickle') as f:
-    pickle.dump(logisticRegr, open(filename, 'wb'))
+    pickle.dump(logisticRegr, f)
 
