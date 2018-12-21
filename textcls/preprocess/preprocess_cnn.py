@@ -59,6 +59,15 @@ def tokenize_data(data, tokenizer_path, maxlen):
     return data, word_index, labels
 
 
+def tokenize_data_prediction(data, tokenizer_path, maxlen):
+    with open(tokenizer_path, 'rb') as f:
+        tokenizer = pickle.load(f)
+    sequences = tokenizer.texts_to_sequences(data['words'])
+    data = pad_sequences(sequences, maxlen=maxlen, truncating='post', padding='post')
+    logger.info('finished tokenizing data')
+    return data
+
+
 def split_data(data, labels, validation_split, test_split):
     p1 = int(len(data)*(1-validation_split-test_split))
     p2 = int(len(data)*(1-test_split))
@@ -72,7 +81,7 @@ def split_data(data, labels, validation_split, test_split):
     return x_train, y_train, x_val, y_val, x_test, y_test
 
 
-def preprocess_for_training(data_paths, sample_size, tokenizer_path,maxlen, validation_split, test_split):
+def preprocess_cnn(data_paths, sample_size, tokenizer_path, maxlen, validation_split, test_split):
     data = import_data(data_paths, sample_size)
     data = sample_by_category(data, sample_size)
     data['words']=data['words'].astype(str)
@@ -82,3 +91,6 @@ def preprocess_for_training(data_paths, sample_size, tokenizer_path,maxlen, vali
 
     return x_train, y_train, x_val, y_val, x_test, y_test, word_index
 
+def preprocess_cnn_prediction(data, tokenizer_path, maxlen):
+    X = tokenize_data_prediction(data, tokenizer_path, maxlen)
+    return X

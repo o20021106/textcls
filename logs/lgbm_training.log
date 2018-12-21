@@ -62,3 +62,8 @@
 2018-12-21 17:52:25,298 - simpleExample - DEBUG - data/preprocessed/test_preprocessed.csv
 2018-12-21 17:52:25,322 - simpleExample - INFO - start vectorizing
 2018-12-21 17:52:25,328 - simpleExample - INFO - finished vectorizing
+2018-12-21 23:12:50,897 - simpleExample - INFO - finished tokenizing data
+2018-12-21 23:13:18,451 - simpleExample - INFO - finished tokenizing data
+2018-12-21 23:15:16,288 - simpleExample - INFO - finished tokenizing data
+2018-12-21 23:17:11,528 - simpleExample - INFO - finished tokenizing data
+2018-12-21 23:18:31,169 - simpleExample - INFO - finished tokenizing data

@@ -181,3 +181,15 @@
 2018-12-21 18:15:23,843 - simpleExample - INFO - data/preprocessed/test_preprocessed.csv
 2018-12-21 18:15:23,949 - simpleExample - INFO - finished tokenizing data
 2018-12-21 18:15:23,950 - simpleExample - INFO - Finished processing CNN input data
+2018-12-21 19:00:28,535 - simpleExample - INFO - data/preprocessed/test_preprocessed.csv
+2018-12-21 19:00:28,645 - simpleExample - INFO - finished tokenizing data
+2018-12-21 19:00:28,645 - simpleExample - INFO - Finished processing CNN input data
+2018-12-21 19:01:07,638 - simpleExample - INFO - data/preprocessed/test_preprocessed.csv
+2018-12-21 19:01:07,942 - simpleExample - INFO - finished tokenizing data
+2018-12-21 19:01:07,943 - simpleExample - INFO - Finished processing CNN input data
+2018-12-21 19:02:46,160 - simpleExample - INFO - data/preprocessed/test_preprocessed.csv
+2018-12-21 19:02:46,461 - simpleExample - INFO - finished tokenizing data
+2018-12-21 19:02:46,461 - simpleExample - INFO - Finished processing CNN input data
+2018-12-21 20:17:28,370 - simpleExample - INFO - finished tokenizing data
+2018-12-21 20:17:54,024 - simpleExample - INFO - finished tokenizing data
+2018-12-21 20:18:21,986 - simpleExample - INFO - finished tokenizing data

@@ -24,14 +24,19 @@ def preprocess_tfidf(data_paths):
         temp =  pd.read_csv(path, lineterminator = '\n')
         data.append(temp[['category_int','words']])
     data = pd.concat(data)
-    data_without_health_sports = data[data['category_int']!=3]
-    data_health_sports = data[data['category_int']==3]
-    #data_health_sports = data_health_sports.sample(70000)
-    data = pd.concat([data_without_health_sports, data_health_sports])
     data.dropna(inplace=True)
     logger.info('start vectorizing')
     vectorizer = TfidfVectorizer(stop_words=stopwords)
     X = vectorizer.fit_transform(data['words'])
+    with open('model_files/tokenizers/tfidf.pickle', 'wb') as f:
+        pickle.dump(vectorizer, f)
     logger.info('finished vectorizing')
     data['category_int'] -= 1
     return X, data['category_int']
+
+
+def preprocess_tfidf_prediction(data):
+    with open('model_files/tokenizers/tfidf.pickle', 'rb') as f:
+        vectorizer = pickle.load(f)
+    X = vectorizer.transform(data['words'])
+    return X
