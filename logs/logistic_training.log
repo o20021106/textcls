@@ -50,3 +50,27 @@
 2018-12-21 23:34:44,518 - simpleExample - INFO - cnn prediction shape: (10000, 9)
 2018-12-21 23:34:44,518 - simpleExample - INFO - lgbm prediction shape: (10000, 9)
 2018-12-21 23:34:44,518 - simpleExample - INFO - logistic prediction shape: (10000,)
+2018-12-22 09:22:44,419 - simpleExample - INFO - finished tokenizing data
+2018-12-22 09:22:46,613 - simpleExample - INFO - cnn X: (10000, 700)
+2018-12-22 09:22:46,613 - simpleExample - INFO - tfidf X: (10000, 2998820)
+2018-12-22 09:23:42,217 - simpleExample - INFO - finished tokenizing data
+2018-12-22 09:23:44,312 - simpleExample - INFO - cnn X: (10000, 700)
+2018-12-22 09:23:44,312 - simpleExample - INFO - tfidf X: (10000, 2998820)
+2018-12-22 09:24:32,509 - simpleExample - INFO - finished tokenizing data
+2018-12-22 09:24:35,228 - simpleExample - INFO - cnn X: (10000, 700)
+2018-12-22 09:24:35,228 - simpleExample - INFO - tfidf X: (10000, 2998820)
+2018-12-22 09:24:54,509 - simpleExample - INFO - cnn prediction shape: (10000,)
+2018-12-22 09:24:54,510 - simpleExample - INFO - lgbm prediction shape: (10000,)
+2018-12-22 09:24:54,510 - simpleExample - INFO - logistic prediction shape: (10000,)
+2018-12-22 09:30:50,269 - simpleExample - INFO - finished tokenizing data
+2018-12-22 09:31:09,946 - simpleExample - INFO - finished model prediction
+2018-12-22 09:31:55,125 - simpleExample - INFO - finished tokenizing data
+2018-12-22 09:32:14,958 - simpleExample - INFO - finished model prediction
+2018-12-22 09:51:46,941 - simpleExample - INFO - finished tokenizing data
+2018-12-22 09:52:06,558 - simpleExample - INFO - finished model prediction
+2018-12-22 10:04:25,830 - simpleExample - INFO - finished tokenizing data
+2018-12-22 10:04:45,642 - simpleExample - INFO - finished model prediction
+2018-12-22 10:18:53,441 - simpleExample - INFO - finished tokenizing data
+2018-12-22 10:19:12,955 - simpleExample - INFO - finished model prediction
+2018-12-22 10:21:21,201 - simpleExample - INFO - finished tokenizing data
+2018-12-22 10:21:40,525 - simpleExample - INFO - finished model prediction
