@@ -6,9 +6,9 @@
 
 ## 訓練
 ### 1. 分詞與清理資料
-先將資料放```data/input/```(內含title 、content、category_int)轉成csv<br/>
+先將資料放```data/input/input_filename.csv```(內含title 、content、category_int)轉成csv<br/>
 category_int是文章類別<br/>
-```python preprocess.py -f filename```
+```python preprocess.py -f input_filename```
 <br/>
 ### 2. 訓練CNN模型<br/>
 ```python cnn_train.py```
@@ -19,5 +19,8 @@ category_int是文章類別<br/>
 ### 4. 訓練Logistic模型<br/>
 ```python logistic_train.py```
 <br/>
-## inference
-```python inference.py -f test -p test --cnn cnn.h5 --lgbm lgbm.pickle --logistic logistic.pickle```
+## 預測
+將欲預測的資料放到```data/input/input_filename.csv```(內含title 、content)轉成csv<br/>
+```python inference.py -f input_filename -p prediction_filename```
+預測會使用三個模型預測投票的結果為最終預測結果，並存到```data/predictions/predictionn_filename.csv```
+難有三個欄位：title、content、category_int_prediction
