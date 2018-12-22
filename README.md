@@ -10,19 +10,14 @@
 category_int是文章類別<br/>
 ```python preprocess.py -f filename```
 <br/>
-<br/>
 ### 2. 訓練CNN模型<br/>
 ```python cnn_train.py```
-<br/>
 <br/>
 ### 3. 訓練LightGBM模型<br/>
 ```python lgbm_train.py```
 <br/>
-<br/>
 ### 4. 訓練Logistic模型<br/>
 ```python logistic_train.py```
 <br/>
-<br/>
-
 ## inference
 ```python inference.py -f test -p test --cnn cnn.h5 --lgbm lgbm.pickle --logistic logistic.pickle```
